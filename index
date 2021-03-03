@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>My first styled page</title>
+<style type="text/css">
+     body {
+        padding-left: 17em;
+        font-family:Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif;  
+    color: rgb(99, 39, 0);
+    background-color: #f5f5f5 }
+    ul.navbar {
+    position: absolute;
+    top: 5em;
+    left: 2em;
+    width: 10em }
+    h1 {
+    font-family: Georgia, "Times New Roman",
+          Times, serif }
+          ul.navbar li {
+    background: rgb(241, 58, 58);
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+  ul.navbar a {
+    text-decoration: none }
+  a:link {
+    color: rgb(241, 235, 235) }
+  a:visited {
+    color: rgb(252, 252, 252) }
+  address {
+    margin-top: 2em;
+    padding-top: 2em;
+    border-top: dotted }
+</style>
+</head>
+
+<body>
+
